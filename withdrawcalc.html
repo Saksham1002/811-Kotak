@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>WITHDRAW</title>
+	
+	<!-- <script type="text/javascript" src="withdrawcalc.js"></script> -->
+    <style type="text/css">
+       *{margin: 0;
+		padding: 0;}
+
+		.logo
+	    {
+          background-color: #02264d;;
+	    }
+
+	    marquee{
+	    	background-color: #badbf8;
+			margin: -3px;
+   		}
+
+	    h1 {
+		color: rgb(9, 9, 9);
+		}	
+    	h1#mainhead{
+    	color: black;
+    	}
+
+    	.heading{
+        margin: 20px 308px;
+        padding: 47px 11px;
+		width: 55vw;
+		height: 10vh;
+		font-family: poppins;
+		display: flex;
+		justify-content: center;
+        }
+
+        #button{
+        margin: 10px 40vw;
+		padding: 46px 15px;
+		background-color: antiquewhite;
+		border: 2px solid black;
+		border-radius: 25px;
+		width: 270px;
+		height: 110px;
+		font-size: larger;
+		font-family: comic sans;
+        }
+
+		input{ width: 225px;
+		height: 40px;
+
+}
+
+		input#button:hover{
+		color: whitesmoke;
+		background-color:#02264d ;
+}	
+
+        #text{
+        	font-size: larger;
+        }   
+</style>
+</head>
+<body bgcolor="whitesmoke">
+
+	<div class="logo">
+    	<img src="logo.jpeg">
+    </div>
+
+<header>
+    	<marquee> <h1 id="mainhead">WELCOME TO KOTAK MAHINDRA BANK ATM </h1> </marquee>
+</header>
+
+    <!-- <h1 class="heading">WITHDRAW AMOUNT:<input type="number" name="wamount"></h1> -->
+	
+
+<form name="f1" action="">
+	<h1 class="heading">WITHDRAW AMOUNT:<input type="number" name="wamount"></h1>	
+	<input type="submit" id="button" onclick="withdraw()" value="SUBMIT">
+		
+</form>
+ <script type="text/javascript"> 
+	
+   document.write("balance is 50000");
+	function withdraw() {
+		
+	var withdraw_amount=document.f1.wamount.value;
+	var balance=50000;
+	 var rembalance=  balance -  withdraw_amount;
+		
+
+  
+	if (withdraw_amount<=20000) {
+		var rembalance=  balance -  withdraw_amount;
+		alert("amount withdrawn");
+	    document.write("rembalance=",rembalance);
+	    withdraw();
+	   	}
+
+	if (withdraw_amount>20000) {
+		alert("withdraw_amount cannot be more than 20000");
+	    document.write("rembalance=",balance);
+	}
+    
+
+
+	if (rembalance<2000) {
+		alert("cannot withdraw amount min limit reached");
+		document.write("rembalance=",balance);
+		    }
+    
+  //     alert("amount withdrawn");
+	 //  document.write("rembalance=",rembalance);
+	 // withdraw();
+}
+</script>
+</body>
+</html>

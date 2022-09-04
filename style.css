@@ -1,0 +1,469 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* /* box-sizing: border-box; */
+
+}
+
+.header {
+    border: 2px solid black;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo img {
+    height: 7vh;
+    width: 20vw;
+    margin: 10px 0px;
+}
+
+.navbar {
+    position: sticky;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.navbar ul li {
+
+    padding: 0 25px;
+    list-style: none;
+    border: 2px solid red;
+    border-block-style: revert;
+
+}
+
+.navbar ul li a {
+
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    cursor: pointer;
+}
+
+.navbar ul li a:hover {
+
+
+    border-radius: 23px;
+    color: #ff5909;
+
+}
+
+input.headbutton {
+    height: 40px;
+    width: 155px;
+    margin: 10px 56px;
+    padding: 0px 20px;
+    border: 2px solid green;
+    color: green;
+    border-radius: 23px;
+}
+
+input.headbutton:hover {
+    cursor: pointer;
+    background-color: #afeaaf;
+
+}
+
+.background {
+    display: flex;
+}
+
+.background img {
+    width: 99vw;
+}
+
+h1.mainhead {
+    margin: 100px -1140px;
+    color: beige;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* h2 {
+    margin-left: 260px;
+    margin-top: 200px;
+} */
+
+h2.fz18.subPara {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form {
+    background-color: white;
+    height: 61vh;
+    width: 15vw;
+    margin: 152px auto;
+    padding: 32px 55px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.formhead {
+    margin-left: 34px;
+    font-size: 25px;
+}
+
+input#name {
+    margin: 10px;
+    border: 2px solid darkred;
+    width: 215px;
+    height: 35px;
+
+}
+
+input#number {
+    margin: 10px;
+    border: 2px solid darkred;
+    width: 215px;
+    height: 35px;
+
+}
+
+input#email {
+    margin: 10px;
+    border: 2px solid darkred;
+    width: 215px;
+    height: 35px;
+
+}
+
+input#name {
+    margin: 10px;
+    border: 2px solid darkred;
+    width: 215px;
+    height: 35px;
+
+}
+
+input#submitDetails {
+    height: 50px;
+    width: 225px;
+    background-color: #07e014;
+    color: white;
+    border: 2px solid #88e000;
+    border-radius: 23px;
+    margin: 20px auto;
+}
+
+input#submitDetails:hover {
+    cursor: pointer;
+    background-color: #a3ff00;
+    color: black;
+}
+
+/* h3.explore811{
+    margin: 265px 115px;
+    padding: 130px 0px;
+}
+
+a#explore811{
+    margin: 234px -32px;
+} */
+
+/* div.container1{
+    display: flex;
+    position: relative;
+}
+
+.container1 img {
+    height: 50vh;
+    width: 50vw;
+}
+
+
+a.text-blue openPop links tt-underline{
+    margin-top: 300px;
+    position: absolute;
+
+    }
+
+
+a.text-blue tt-underline{
+    position: absolute;
+margin-top: 320px;
+} */
+
+/* .container1{
+    background-color: rgb(109, 20, 20);
+    box-sizing: border-box;
+}
+
+.outerbox{
+    background-color: green;
+    max-width: 1220px;
+padding-left: 30px;
+padding-right: 30px;
+margin-left: auto;
+margin-right: auto;
+box-sizing: border-box;
+}
+
+.innerbox{
+    padding: 80px 0;
+    max-width: 960px;
+margin-left: auto;
+margin-right: auto;
+position: relative;
+    background-color: #afeaaf;
+    box-sizing: border-box;
+}
+
+.insidebox{
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.cellonright{
+    max-width: 400px;
+    box-sizing: border-box;
+}
+div.cell{
+    background-color: aliceblue;
+}
+.title900
+{  font-size: 46px;
+    font-weight: 700;
+    color: #000;
+    line-height: 1.32;
+    margin-bottom: 18px;
+  } */
+
+div.container1 {
+    background-color: antiquewhite;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+
+h2.title900 {
+    width: 450px;
+    margin: -350px auto;
+    /* z-index: -1;
+    display: flex; */
+    position: absolute;
+    padding: 0px 475px;
+}
+
+p.firstpara {
+    width: 450px;
+    margin: -288px auto;
+    /* z-index: -1;
+display: flex; */
+    position: absolute;
+    padding: 0px 475px;
+}
+
+p.secondpara {
+    width: 450px;
+    margin: -224px auto;
+    /* z-index: -1;
+display: flex; */
+    position: absolute;
+    padding: 0px 475px;
+}
+
+a.link1 {
+    width: 450px;
+    margin: -128px auto;
+    /* z-index: -1;
+display: flex; */
+    position: absolute;
+    padding: 0px 475px;
+}
+
+p.thirdpara {
+    width: 450px;
+    margin: -110px auto;
+    /* z-index: -1;
+display: flex; */
+    position: absolute;
+    padding: 0px 475px;
+}
+
+a.link2 {
+    width: 450px;
+    margin: -68px auto;
+    /* z-index: -1;
+display: flex; */
+    position: absolute;
+    padding: 0px 475px;
+}
+
+div.container2 h1 {
+    color: black;
+}
+
+div.subcontainer2 {
+    max-width: 1520px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background-color: #afeaaf;
+    box-sizing: border-box;
+    height: 36vh;
+}
+
+h1.headcontainer2 {
+    margin: -245px 410px;
+    padding: 0 100px;
+    width: 440px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+div.container3 {
+    display: flex;
+    align-items: center;
+    margin-left: 300px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+h2.headcontainer3 {
+    margin: 0;
+    padding: 0;
+}
+
+div.container4 {
+    background-color: #e1fdfd;
+    ;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+div.boxcontainer4 {
+    padding: 80px 0;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+h2.headcontainer4 {
+    margin: o;
+    padding: 0;
+}
+
+
+
+
+.container {
+    max-width: 1220px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+div.cell.cellRight {
+    display: flex;
+    justify-content: center;
+}
+
+input.btncontainer4 {
+    height: 45px;
+    width: 200px;
+    background-color: navy;
+    color: white;
+    border: 2px solid aquamarine;
+    cursor: pointer;
+    margin: 0 377px;
+}
+
+input.btncontainer4:hover {
+    background-color: #002ee1;
+    border-radius: 23px;
+    height: 50px;
+    width: 225px;
+    margin: 0 358px;
+
+}
+
+.container5 {
+    background-color: rgb(235, 233, 233);
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.subcontainer5 {
+    max-width: 1220px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+
+.headcontainer5 {
+    margin: 0;
+}
+
+.contentcontainer5 {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+.featurescontainer5 {
+    padding-top: 15px;
+    margin-top: 22px;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+.dropdown {
+    /* border: 1px solid black; */
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+h2.pt15.tac.fz26m {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    width: 75vw;
+    margin: 0 -278px;
+    padding: 0 183px;
+    background-color: whitesmoke;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.footer ul li {
+
+    padding: 0 25px;
+    list-style: none;
+    border: 2px solid red;
+    border-block-style: revert;
+
+}
+
+.footer ul li a {
+
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    cursor: pointer;
+}
+
+.footer ul li a:hover {
+
+
+    border-radius: 23px;
+    color: #ff5909;
+}

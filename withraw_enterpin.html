@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>WITHDRAW enter pin</title>
+	<style type="text/css">
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		.logo {
+			background-color: #02264d;
+			;
+		}
+
+		marquee {
+			background-color: #badbf8;
+			margin: -3px;
+		}
+
+		h1 {
+			color: black;
+			font-size: 29px;
+		}
+
+		h1#mainhead {
+			color: black;
+		}
+
+		.heading {
+			margin: 20px 308px;
+			padding: 47px 11px;
+			width: 55vw;
+			height: 10vh;
+			font-family: monospace;
+			display: flex;
+			justify-content: center;
+		}
+
+		input.button {
+			margin: -13px 40vw;
+			padding: 39px 15px;
+			background-color: #d7d7d7;
+			border: 2px solid #888484;
+			border-radius: 25px;
+			width: 270px;
+			height: 110px;
+			font-size: larger;
+			font-family: comic sans;
+		}
+
+
+		input {
+			width: 225px;
+			height: 40px;
+
+		}
+
+		input.button:hover {
+			color: whitesmoke;
+			background-color: #003f77;
+			cursor: pointer;
+		}
+	</style>
+
+
+
+
+</head>
+
+<body bgcolor="whitesmoke">
+<div class=" logo">
+	<img src="logo.jpeg">
+	</div>
+	<header>
+		<marquee>
+			<h1 id="mainhead">WELCOME TO KOTAK MAHINDRA BANK ATM </h1>
+		</marquee>
+	</header>
+
+	<!-- <h1 class="heading">ENTER YOUR PIN NUMBER:<input type="number" name="pin"></h1> -->
+
+	<form name="f1" action="sucesspin.html" onsubmit="return atm()">
+		<h1 class="heading">ENTER YOUR PIN NUMBER:<input type="password" name="password"></h1>
+		<!-- enter pin <input type="password" name="password"> -->
+		<!-- <br><br>re-enter pin <input type="password" name="password2"> -->
+	   <br><br> <input type="submit" class="button" value="SUBMIT" >
+        
+</form>
+	<script type="text/javascript">
+	function atm()
+	{   
+	   var fpass=document.f1.password.value;
+	   var spass=0987;
+
+	   if(fpass==spass)
+	   {
+		return true;
+	   } 
+	   else{
+		alert("mismatch");
+		return false;
+	   }
+	}
+
+	
+	</script>
+</body>
+
+</html>
